@@ -1,0 +1,1302 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'dev',
+1 verbose cli   'chai',
+1 verbose cli   'gulp',
+1 verbose cli   'gulp-webserver',
+1 verbose cli   'karma',
+1 verbose cli   'karma-chai',
+1 verbose cli   'karma-chrome-launcher',
+1 verbose cli   'karma-mocha',
+1 verbose cli   'karma-phantomjs-launcher',
+1 verbose cli   'karma-sinon',
+1 verbose cli   'mocha',
+1 verbose cli   'phantomjs',
+1 verbose cli   'sinon' ]
+2 info using npm@3.5.3
+3 info using node@v4.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData dev
+8 silly fetchPackageMetaData chai
+9 silly fetchPackageMetaData gulp
+10 silly fetchPackageMetaData gulp-webserver
+11 silly fetchPackageMetaData karma
+12 silly fetchPackageMetaData karma-chai
+13 silly fetchPackageMetaData karma-chrome-launcher
+14 silly fetchPackageMetaData karma-mocha
+15 silly fetchPackageMetaData karma-phantomjs-launcher
+16 silly fetchPackageMetaData karma-sinon
+17 silly fetchPackageMetaData mocha
+18 silly fetchPackageMetaData phantomjs
+19 silly fetchPackageMetaData sinon
+20 silly fetchNamedPackageData dev
+21 silly mapToRegistry name dev
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/dev
+25 silly fetchNamedPackageData chai
+26 silly mapToRegistry name chai
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/chai
+30 silly fetchNamedPackageData gulp
+31 silly mapToRegistry name gulp
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/gulp
+35 silly fetchNamedPackageData gulp-webserver
+36 silly mapToRegistry name gulp-webserver
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/gulp-webserver
+40 silly fetchNamedPackageData karma
+41 silly mapToRegistry name karma
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/karma
+45 silly fetchNamedPackageData karma-chai
+46 silly mapToRegistry name karma-chai
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/karma-chai
+50 silly fetchNamedPackageData karma-chrome-launcher
+51 silly mapToRegistry name karma-chrome-launcher
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+55 silly fetchNamedPackageData karma-mocha
+56 silly mapToRegistry name karma-mocha
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/karma-mocha
+60 silly fetchNamedPackageData karma-phantomjs-launcher
+61 silly mapToRegistry name karma-phantomjs-launcher
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/karma-phantomjs-launcher
+65 silly fetchNamedPackageData karma-sinon
+66 silly mapToRegistry name karma-sinon
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/karma-sinon
+70 silly fetchNamedPackageData mocha
+71 silly mapToRegistry name mocha
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/mocha
+75 silly fetchNamedPackageData phantomjs
+76 silly mapToRegistry name phantomjs
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+80 silly fetchNamedPackageData sinon
+81 silly mapToRegistry name sinon
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry uri https://registry.npmjs.org/sinon
+85 verbose request uri https://registry.npmjs.org/dev
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 10:36:35 AM
+88 verbose request id fa63aa97875c1500
+89 http request GET https://registry.npmjs.org/dev
+90 verbose request uri https://registry.npmjs.org/karma-chai
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 10:36:36 AM
+93 verbose etag "D2MR1G92QUNKGYBNZ5C8Z0BOI"
+94 http request GET https://registry.npmjs.org/karma-chai
+95 verbose request uri https://registry.npmjs.org/chai
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 10:36:36 AM
+98 verbose etag "EPLJVYKREL3FKHTMSQPR4Q1J5"
+99 http request GET https://registry.npmjs.org/chai
+100 verbose request uri https://registry.npmjs.org/gulp
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 10:36:36 AM
+103 verbose etag "BE4CC93A6TZK51GTU6BYDFRKP"
+104 http request GET https://registry.npmjs.org/gulp
+105 verbose request uri https://registry.npmjs.org/karma-mocha
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 10:36:36 AM
+108 verbose etag "EE0UEZ76Q4VKM5F4LIGGCSIDZ"
+109 http request GET https://registry.npmjs.org/karma-mocha
+110 verbose request uri https://registry.npmjs.org/karma
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 10:36:36 AM
+113 verbose etag "2USDSKUCY8LJSB15AZC3U1KEA"
+114 http request GET https://registry.npmjs.org/karma
+115 verbose request uri https://registry.npmjs.org/karma-phantomjs-launcher
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 10:36:36 AM
+118 verbose etag "5CIHJNRJ1OIHUYYVEV70NF5Z6"
+119 http request GET https://registry.npmjs.org/karma-phantomjs-launcher
+120 verbose request uri https://registry.npmjs.org/karma-sinon
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 10:36:36 AM
+123 verbose etag "4GBRB2KA7RBA33D0TLGLQUYP3"
+124 http request GET https://registry.npmjs.org/karma-sinon
+125 verbose request uri https://registry.npmjs.org/mocha
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 10:36:36 AM
+128 verbose etag "6VFO95B1F7Y5XPIG6O7XRV9MK"
+129 http request GET https://registry.npmjs.org/mocha
+130 verbose request uri https://registry.npmjs.org/gulp-webserver
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 10:36:36 AM
+133 verbose etag "APFLXX850U4P4LR5E5U5PTOSI"
+134 http request GET https://registry.npmjs.org/gulp-webserver
+135 verbose request uri https://registry.npmjs.org/phantomjs
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 10:36:36 AM
+138 verbose etag "5WY43RX331V29PNOVUSCM97KJ"
+139 http request GET https://registry.npmjs.org/phantomjs
+140 verbose request uri https://registry.npmjs.org/karma-chrome-launcher
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 10:36:36 AM
+143 verbose etag "BZAVIQIH3A1MG5TE19WTZM3R8"
+144 http request GET https://registry.npmjs.org/karma-chrome-launcher
+145 verbose request uri https://registry.npmjs.org/sinon
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 10:36:36 AM
+148 verbose etag "DHIET1TJ8SAO7OJEHD4BGMLX5"
+149 http request GET https://registry.npmjs.org/sinon
+150 http 200 https://registry.npmjs.org/chai
+151 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+151 verbose headers   etag: '"DZMYTV3IHO5GRYG4VK3EUG83J"',
+151 verbose headers   'content-type': 'application/json',
+151 verbose headers   'content-encoding': 'gzip',
+151 verbose headers   'cache-control': 'max-age=300',
+151 verbose headers   'content-length': '11345',
+151 verbose headers   'accept-ranges': 'bytes',
+151 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+151 verbose headers   via: '1.1 varnish',
+151 verbose headers   age: '126',
+151 verbose headers   connection: 'keep-alive',
+151 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+151 verbose headers   'x-cache': 'HIT',
+151 verbose headers   'x-cache-hits': '1',
+151 verbose headers   'x-timer': 'S1466485598.492072,VS0,VE0',
+151 verbose headers   vary: 'Accept-Encoding' }
+152 silly get cb [ 200,
+152 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+152 silly get     etag: '"DZMYTV3IHO5GRYG4VK3EUG83J"',
+152 silly get     'content-type': 'application/json',
+152 silly get     'content-encoding': 'gzip',
+152 silly get     'cache-control': 'max-age=300',
+152 silly get     'content-length': '11345',
+152 silly get     'accept-ranges': 'bytes',
+152 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+152 silly get     via: '1.1 varnish',
+152 silly get     age: '126',
+152 silly get     connection: 'keep-alive',
+152 silly get     'x-served-by': 'cache-sin6927-SIN',
+152 silly get     'x-cache': 'HIT',
+152 silly get     'x-cache-hits': '1',
+152 silly get     'x-timer': 'S1466485598.492072,VS0,VE0',
+152 silly get     vary: 'Accept-Encoding' } ]
+153 verbose get saving chai to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\chai\.cache.json
+154 http 304 https://registry.npmjs.org/karma-mocha
+155 verbose headers { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+155 verbose headers   via: '1.1 varnish',
+155 verbose headers   'cache-control': 'max-age=300',
+155 verbose headers   etag: '"EE0UEZ76Q4VKM5F4LIGGCSIDZ"',
+155 verbose headers   age: '227',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+155 verbose headers   'x-cache': 'HIT',
+155 verbose headers   'x-cache-hits': '2',
+155 verbose headers   'x-timer': 'S1466485598.501153,VS0,VE0',
+155 verbose headers   vary: 'Accept-Encoding' }
+156 silly get cb [ 304,
+156 silly get   { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     'cache-control': 'max-age=300',
+156 silly get     etag: '"EE0UEZ76Q4VKM5F4LIGGCSIDZ"',
+156 silly get     age: '227',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-sin6922-SIN',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '2',
+156 silly get     'x-timer': 'S1466485598.501153,VS0,VE0',
+156 silly get     vary: 'Accept-Encoding' } ]
+157 verbose etag https://registry.npmjs.org/karma-mocha from cache
+158 verbose get saving karma-mocha to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\karma-mocha\.cache.json
+159 http 304 https://registry.npmjs.org/phantomjs
+160 verbose headers { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+160 verbose headers   via: '1.1 varnish',
+160 verbose headers   'cache-control': 'max-age=300',
+160 verbose headers   etag: '"5WY43RX331V29PNOVUSCM97KJ"',
+160 verbose headers   age: '239',
+160 verbose headers   connection: 'keep-alive',
+160 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+160 verbose headers   'x-cache': 'HIT',
+160 verbose headers   'x-cache-hits': '1',
+160 verbose headers   'x-timer': 'S1466485598.503824,VS0,VE0',
+160 verbose headers   vary: 'Accept-Encoding' }
+161 silly get cb [ 304,
+161 silly get   { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+161 silly get     via: '1.1 varnish',
+161 silly get     'cache-control': 'max-age=300',
+161 silly get     etag: '"5WY43RX331V29PNOVUSCM97KJ"',
+161 silly get     age: '239',
+161 silly get     connection: 'keep-alive',
+161 silly get     'x-served-by': 'cache-sin6921-SIN',
+161 silly get     'x-cache': 'HIT',
+161 silly get     'x-cache-hits': '1',
+161 silly get     'x-timer': 'S1466485598.503824,VS0,VE0',
+161 silly get     vary: 'Accept-Encoding' } ]
+162 verbose etag https://registry.npmjs.org/phantomjs from cache
+163 verbose get saving phantomjs to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\phantomjs\.cache.json
+164 http 200 https://registry.npmjs.org/karma-phantomjs-launcher
+165 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+165 verbose headers   etag: '"7TANXPJ0XBUUNDP8OM8GPBUJK"',
+165 verbose headers   'content-type': 'application/json',
+165 verbose headers   'content-encoding': 'gzip',
+165 verbose headers   'cache-control': 'max-age=300',
+165 verbose headers   'content-length': '4559',
+165 verbose headers   'accept-ranges': 'bytes',
+165 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+165 verbose headers   via: '1.1 varnish',
+165 verbose headers   age: '19',
+165 verbose headers   connection: 'keep-alive',
+165 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+165 verbose headers   'x-cache': 'HIT',
+165 verbose headers   'x-cache-hits': '8',
+165 verbose headers   'x-timer': 'S1466485598.513736,VS0,VE0',
+165 verbose headers   vary: 'Accept-Encoding' }
+166 silly get cb [ 200,
+166 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+166 silly get     etag: '"7TANXPJ0XBUUNDP8OM8GPBUJK"',
+166 silly get     'content-type': 'application/json',
+166 silly get     'content-encoding': 'gzip',
+166 silly get     'cache-control': 'max-age=300',
+166 silly get     'content-length': '4559',
+166 silly get     'accept-ranges': 'bytes',
+166 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+166 silly get     via: '1.1 varnish',
+166 silly get     age: '19',
+166 silly get     connection: 'keep-alive',
+166 silly get     'x-served-by': 'cache-sin6923-SIN',
+166 silly get     'x-cache': 'HIT',
+166 silly get     'x-cache-hits': '8',
+166 silly get     'x-timer': 'S1466485598.513736,VS0,VE0',
+166 silly get     vary: 'Accept-Encoding' } ]
+167 verbose get saving karma-phantomjs-launcher to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\karma-phantomjs-launcher\.cache.json
+168 http 200 https://registry.npmjs.org/gulp-webserver
+169 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+169 verbose headers   etag: '"3DNLLBSK9HX0W1T61AG6FE0JH"',
+169 verbose headers   'content-type': 'application/json',
+169 verbose headers   'content-encoding': 'gzip',
+169 verbose headers   'cache-control': 'max-age=300',
+169 verbose headers   'content-length': '6114',
+169 verbose headers   'accept-ranges': 'bytes',
+169 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+169 verbose headers   via: '1.1 varnish',
+169 verbose headers   age: '49',
+169 verbose headers   connection: 'keep-alive',
+169 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+169 verbose headers   'x-cache': 'HIT',
+169 verbose headers   'x-cache-hits': '1',
+169 verbose headers   'x-timer': 'S1466485598.537323,VS0,VE0',
+169 verbose headers   vary: 'Accept-Encoding' }
+170 silly get cb [ 200,
+170 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+170 silly get     etag: '"3DNLLBSK9HX0W1T61AG6FE0JH"',
+170 silly get     'content-type': 'application/json',
+170 silly get     'content-encoding': 'gzip',
+170 silly get     'cache-control': 'max-age=300',
+170 silly get     'content-length': '6114',
+170 silly get     'accept-ranges': 'bytes',
+170 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+170 silly get     via: '1.1 varnish',
+170 silly get     age: '49',
+170 silly get     connection: 'keep-alive',
+170 silly get     'x-served-by': 'cache-sin6922-SIN',
+170 silly get     'x-cache': 'HIT',
+170 silly get     'x-cache-hits': '1',
+170 silly get     'x-timer': 'S1466485598.537323,VS0,VE0',
+170 silly get     vary: 'Accept-Encoding' } ]
+171 verbose get saving gulp-webserver to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-webserver\.cache.json
+172 http 304 https://registry.npmjs.org/karma-chrome-launcher
+173 verbose headers { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+173 verbose headers   via: '1.1 varnish',
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   etag: '"BZAVIQIH3A1MG5TE19WTZM3R8"',
+173 verbose headers   age: '154',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+173 verbose headers   'x-cache': 'HIT',
+173 verbose headers   'x-cache-hits': '1',
+173 verbose headers   'x-timer': 'S1466485598.554506,VS0,VE0',
+173 verbose headers   vary: 'Accept-Encoding' }
+174 silly get cb [ 304,
+174 silly get   { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+174 silly get     via: '1.1 varnish',
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     etag: '"BZAVIQIH3A1MG5TE19WTZM3R8"',
+174 silly get     age: '154',
+174 silly get     connection: 'keep-alive',
+174 silly get     'x-served-by': 'cache-sin6921-SIN',
+174 silly get     'x-cache': 'HIT',
+174 silly get     'x-cache-hits': '1',
+174 silly get     'x-timer': 'S1466485598.554506,VS0,VE0',
+174 silly get     vary: 'Accept-Encoding' } ]
+175 verbose etag https://registry.npmjs.org/karma-chrome-launcher from cache
+176 verbose get saving karma-chrome-launcher to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\karma-chrome-launcher\.cache.json
+177 http 200 https://registry.npmjs.org/gulp
+178 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+178 verbose headers   etag: '"1I8X4MBZDQZ1U8MU5WR0TQU07"',
+178 verbose headers   'content-type': 'application/json',
+178 verbose headers   'content-encoding': 'gzip',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   'content-length': '18489',
+178 verbose headers   'accept-ranges': 'bytes',
+178 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+178 verbose headers   via: '1.1 varnish',
+178 verbose headers   age: '228',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+178 verbose headers   'x-cache': 'HIT',
+178 verbose headers   'x-cache-hits': '13',
+178 verbose headers   'x-timer': 'S1466485598.466970,VS0,VE0',
+178 verbose headers   vary: 'Accept-Encoding' }
+179 silly get cb [ 200,
+179 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+179 silly get     etag: '"1I8X4MBZDQZ1U8MU5WR0TQU07"',
+179 silly get     'content-type': 'application/json',
+179 silly get     'content-encoding': 'gzip',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     'content-length': '18489',
+179 silly get     'accept-ranges': 'bytes',
+179 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     age: '228',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-sin6923-SIN',
+179 silly get     'x-cache': 'HIT',
+179 silly get     'x-cache-hits': '13',
+179 silly get     'x-timer': 'S1466485598.466970,VS0,VE0',
+179 silly get     vary: 'Accept-Encoding' } ]
+180 verbose get saving gulp to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+181 http 200 https://registry.npmjs.org/dev
+182 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+182 verbose headers   etag: '"VK812ZBPAVKGVPWTKZ40JVQP"',
+182 verbose headers   'content-type': 'application/json',
+182 verbose headers   'content-encoding': 'gzip',
+182 verbose headers   'cache-control': 'max-age=300',
+182 verbose headers   'content-length': '1327',
+182 verbose headers   'accept-ranges': 'bytes',
+182 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+182 verbose headers   via: '1.1 varnish',
+182 verbose headers   age: '0',
+182 verbose headers   connection: 'keep-alive',
+182 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+182 verbose headers   'x-cache': 'MISS',
+182 verbose headers   'x-cache-hits': '0',
+182 verbose headers   'x-timer': 'S1466485598.386039,VS0,VE259',
+182 verbose headers   vary: 'Accept-Encoding' }
+183 silly get cb [ 200,
+183 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+183 silly get     etag: '"VK812ZBPAVKGVPWTKZ40JVQP"',
+183 silly get     'content-type': 'application/json',
+183 silly get     'content-encoding': 'gzip',
+183 silly get     'cache-control': 'max-age=300',
+183 silly get     'content-length': '1327',
+183 silly get     'accept-ranges': 'bytes',
+183 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     age: '0',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-sin6920-SIN',
+183 silly get     'x-cache': 'MISS',
+183 silly get     'x-cache-hits': '0',
+183 silly get     'x-timer': 'S1466485598.386039,VS0,VE259',
+183 silly get     vary: 'Accept-Encoding' } ]
+184 verbose get saving dev to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\dev\.cache.json
+185 http 200 https://registry.npmjs.org/karma-sinon
+186 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+186 verbose headers   etag: '"AOWDMPBXP4KOIP1SC22CV15EJ"',
+186 verbose headers   'content-type': 'application/json',
+186 verbose headers   'content-encoding': 'gzip',
+186 verbose headers   'cache-control': 'max-age=300',
+186 verbose headers   'content-length': '1896',
+186 verbose headers   'accept-ranges': 'bytes',
+186 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+186 verbose headers   via: '1.1 varnish',
+186 verbose headers   age: '0',
+186 verbose headers   connection: 'keep-alive',
+186 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+186 verbose headers   'x-cache': 'HIT',
+186 verbose headers   'x-cache-hits': '1',
+186 verbose headers   'x-timer': 'S1466485598.509658,VS0,VE250',
+186 verbose headers   vary: 'Accept-Encoding' }
+187 silly get cb [ 200,
+187 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+187 silly get     etag: '"AOWDMPBXP4KOIP1SC22CV15EJ"',
+187 silly get     'content-type': 'application/json',
+187 silly get     'content-encoding': 'gzip',
+187 silly get     'cache-control': 'max-age=300',
+187 silly get     'content-length': '1896',
+187 silly get     'accept-ranges': 'bytes',
+187 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+187 silly get     via: '1.1 varnish',
+187 silly get     age: '0',
+187 silly get     connection: 'keep-alive',
+187 silly get     'x-served-by': 'cache-sin6924-SIN',
+187 silly get     'x-cache': 'HIT',
+187 silly get     'x-cache-hits': '1',
+187 silly get     'x-timer': 'S1466485598.509658,VS0,VE250',
+187 silly get     vary: 'Accept-Encoding' } ]
+188 verbose get saving karma-sinon to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\karma-sinon\.cache.json
+189 http 200 https://registry.npmjs.org/sinon
+190 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+190 verbose headers   etag: '"DPX3WJXOLSFEX7RJJ0NCZI8AO"',
+190 verbose headers   'content-type': 'application/json',
+190 verbose headers   'content-encoding': 'gzip',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   'content-length': '21409',
+190 verbose headers   'accept-ranges': 'bytes',
+190 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   age: '138',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+190 verbose headers   'x-cache': 'HIT',
+190 verbose headers   'x-cache-hits': '5',
+190 verbose headers   'x-timer': 'S1466485598.541197,VS0,VE0',
+190 verbose headers   vary: 'Accept-Encoding' }
+191 silly get cb [ 200,
+191 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+191 silly get     etag: '"DPX3WJXOLSFEX7RJJ0NCZI8AO"',
+191 silly get     'content-type': 'application/json',
+191 silly get     'content-encoding': 'gzip',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     'content-length': '21409',
+191 silly get     'accept-ranges': 'bytes',
+191 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     age: '138',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-sin6924-SIN',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '5',
+191 silly get     'x-timer': 'S1466485598.541197,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding' } ]
+192 verbose get saving sinon to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\sinon\.cache.json
+193 http 200 https://registry.npmjs.org/mocha
+194 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+194 verbose headers   etag: '"BJ85OVR7JRJFZTGUMTVZG30X6"',
+194 verbose headers   'content-type': 'application/json',
+194 verbose headers   'content-encoding': 'gzip',
+194 verbose headers   'cache-control': 'max-age=300',
+194 verbose headers   'content-length': '44855',
+194 verbose headers   'accept-ranges': 'bytes',
+194 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+194 verbose headers   via: '1.1 varnish',
+194 verbose headers   age: '127',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+194 verbose headers   'x-cache': 'HIT',
+194 verbose headers   'x-cache-hits': '15',
+194 verbose headers   'x-timer': 'S1466485598.525696,VS0,VE0',
+194 verbose headers   vary: 'Accept-Encoding' }
+195 silly get cb [ 200,
+195 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+195 silly get     etag: '"BJ85OVR7JRJFZTGUMTVZG30X6"',
+195 silly get     'content-type': 'application/json',
+195 silly get     'content-encoding': 'gzip',
+195 silly get     'cache-control': 'max-age=300',
+195 silly get     'content-length': '44855',
+195 silly get     'accept-ranges': 'bytes',
+195 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     age: '127',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-sin6923-SIN',
+195 silly get     'x-cache': 'HIT',
+195 silly get     'x-cache-hits': '15',
+195 silly get     'x-timer': 'S1466485598.525696,VS0,VE0',
+195 silly get     vary: 'Accept-Encoding' } ]
+196 verbose get saving mocha to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\mocha\.cache.json
+197 http 200 https://registry.npmjs.org/karma
+198 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+198 verbose headers   etag: '"4OA0RNMCZX0XZPU55IEF8Y6OE"',
+198 verbose headers   'content-type': 'application/json',
+198 verbose headers   'content-encoding': 'gzip',
+198 verbose headers   'cache-control': 'max-age=300',
+198 verbose headers   'content-length': '110823',
+198 verbose headers   'accept-ranges': 'bytes',
+198 verbose headers   date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+198 verbose headers   via: '1.1 varnish',
+198 verbose headers   age: '240',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+198 verbose headers   'x-cache': 'HIT',
+198 verbose headers   'x-cache-hits': '3',
+198 verbose headers   'x-timer': 'S1466485598.476077,VS0,VE0',
+198 verbose headers   vary: 'Accept-Encoding' }
+199 silly get cb [ 200,
+199 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+199 silly get     etag: '"4OA0RNMCZX0XZPU55IEF8Y6OE"',
+199 silly get     'content-type': 'application/json',
+199 silly get     'content-encoding': 'gzip',
+199 silly get     'cache-control': 'max-age=300',
+199 silly get     'content-length': '110823',
+199 silly get     'accept-ranges': 'bytes',
+199 silly get     date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+199 silly get     via: '1.1 varnish',
+199 silly get     age: '240',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-served-by': 'cache-sin6923-SIN',
+199 silly get     'x-cache': 'HIT',
+199 silly get     'x-cache-hits': '3',
+199 silly get     'x-timer': 'S1466485598.476077,VS0,VE0',
+199 silly get     vary: 'Accept-Encoding' } ]
+200 verbose get saving karma to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\karma\.cache.json
+201 http 304 https://registry.npmjs.org/karma-chai
+202 verbose headers { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+202 verbose headers   via: '1.1 varnish',
+202 verbose headers   'cache-control': 'max-age=300',
+202 verbose headers   etag: '"D2MR1G92QUNKGYBNZ5C8Z0BOI"',
+202 verbose headers   age: '0',
+202 verbose headers   connection: 'keep-alive',
+202 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+202 verbose headers   'x-cache': 'HIT',
+202 verbose headers   'x-cache-hits': '1',
+202 verbose headers   'x-timer': 'S1466485598.464706,VS0,VE999',
+202 verbose headers   vary: 'Accept-Encoding' }
+203 silly get cb [ 304,
+203 silly get   { date: 'Tue, 21 Jun 2016 05:06:38 GMT',
+203 silly get     via: '1.1 varnish',
+203 silly get     'cache-control': 'max-age=300',
+203 silly get     etag: '"D2MR1G92QUNKGYBNZ5C8Z0BOI"',
+203 silly get     age: '0',
+203 silly get     connection: 'keep-alive',
+203 silly get     'x-served-by': 'cache-sin6926-SIN',
+203 silly get     'x-cache': 'HIT',
+203 silly get     'x-cache-hits': '1',
+203 silly get     'x-timer': 'S1466485598.464706,VS0,VE999',
+203 silly get     vary: 'Accept-Encoding' } ]
+204 verbose etag https://registry.npmjs.org/karma-chai from cache
+205 verbose get saving karma-chai to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\karma-chai\.cache.json
+206 silly install normalizeTree
+207 silly loadCurrentTree Finishing
+208 silly loadIdealTree Starting
+209 silly install loadIdealTree
+210 silly cloneCurrentTree Starting
+211 silly install cloneCurrentTreeToIdealTree
+212 silly cloneCurrentTree Finishing
+213 silly loadShrinkwrap Starting
+214 silly install loadShrinkwrap
+215 silly loadShrinkwrap Finishing
+216 silly loadAllDepsIntoIdealTree Starting
+217 silly install loadAllDepsIntoIdealTree
+218 silly resolveWithNewModule karma-mocha@1.0.1 checking installable status
+219 silly cache add args [ 'karma-mocha', null ]
+220 verbose cache add spec karma-mocha
+221 silly resolveWithNewModule chai@3.5.0 checking installable status
+222 silly cache add args [ 'chai', null ]
+223 verbose cache add spec chai
+224 silly resolveWithNewModule phantomjs@2.1.7 checking installable status
+225 silly cache add args [ 'phantomjs', null ]
+226 verbose cache add spec phantomjs
+227 silly resolveWithNewModule karma-phantomjs-launcher@1.0.0 checking installable status
+228 silly cache add args [ 'karma-phantomjs-launcher', null ]
+229 verbose cache add spec karma-phantomjs-launcher
+230 silly resolveWithNewModule gulp-webserver@0.9.1 checking installable status
+231 silly cache add args [ 'gulp-webserver', null ]
+232 verbose cache add spec gulp-webserver
+233 silly resolveWithNewModule karma-chrome-launcher@1.0.1 checking installable status
+234 silly cache add args [ 'karma-chrome-launcher', null ]
+235 verbose cache add spec karma-chrome-launcher
+236 silly resolveWithNewModule gulp@3.9.1 checking installable status
+237 silly cache add args [ 'gulp', null ]
+238 verbose cache add spec gulp
+239 silly resolveWithNewModule dev@0.1.3 checking installable status
+240 silly cache add args [ 'dev', null ]
+241 verbose cache add spec dev
+242 silly resolveWithNewModule karma-sinon@1.0.5 checking installable status
+243 silly cache add args [ 'karma-sinon', null ]
+244 verbose cache add spec karma-sinon
+245 silly resolveWithNewModule sinon@1.17.4 checking installable status
+246 silly cache add args [ 'sinon', null ]
+247 verbose cache add spec sinon
+248 silly resolveWithNewModule mocha@2.5.3 checking installable status
+249 silly cache add args [ 'mocha', null ]
+250 verbose cache add spec mocha
+251 silly resolveWithNewModule karma@0.13.22 checking installable status
+252 silly cache add args [ 'karma', null ]
+253 verbose cache add spec karma
+254 silly resolveWithNewModule karma-chai@0.1.0 checking installable status
+255 silly cache add args [ 'karma-chai', null ]
+256 verbose cache add spec karma-chai
+257 silly cache add parsed spec Result {
+257 silly cache add   raw: 'karma-mocha',
+257 silly cache add   scope: null,
+257 silly cache add   name: 'karma-mocha',
+257 silly cache add   rawSpec: '',
+257 silly cache add   spec: 'latest',
+257 silly cache add   type: 'tag' }
+258 silly addNamed karma-mocha@latest
+259 verbose addNamed "latest" is being treated as a dist-tag for karma-mocha
+260 info addNameTag [ 'karma-mocha', 'latest' ]
+261 silly mapToRegistry name karma-mocha
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry uri https://registry.npmjs.org/karma-mocha
+265 verbose addNameTag registry:https://registry.npmjs.org/karma-mocha not in flight; fetching
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'chai',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'chai',
+266 silly cache add   rawSpec: '',
+266 silly cache add   spec: 'latest',
+266 silly cache add   type: 'tag' }
+267 silly addNamed chai@latest
+268 verbose addNamed "latest" is being treated as a dist-tag for chai
+269 info addNameTag [ 'chai', 'latest' ]
+270 silly mapToRegistry name chai
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry uri https://registry.npmjs.org/chai
+274 verbose addNameTag registry:https://registry.npmjs.org/chai not in flight; fetching
+275 silly cache add parsed spec Result {
+275 silly cache add   raw: 'phantomjs',
+275 silly cache add   scope: null,
+275 silly cache add   name: 'phantomjs',
+275 silly cache add   rawSpec: '',
+275 silly cache add   spec: 'latest',
+275 silly cache add   type: 'tag' }
+276 silly addNamed phantomjs@latest
+277 verbose addNamed "latest" is being treated as a dist-tag for phantomjs
+278 info addNameTag [ 'phantomjs', 'latest' ]
+279 silly mapToRegistry name phantomjs
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+283 verbose addNameTag registry:https://registry.npmjs.org/phantomjs not in flight; fetching
+284 silly cache add parsed spec Result {
+284 silly cache add   raw: 'karma-phantomjs-launcher',
+284 silly cache add   scope: null,
+284 silly cache add   name: 'karma-phantomjs-launcher',
+284 silly cache add   rawSpec: '',
+284 silly cache add   spec: 'latest',
+284 silly cache add   type: 'tag' }
+285 silly addNamed karma-phantomjs-launcher@latest
+286 verbose addNamed "latest" is being treated as a dist-tag for karma-phantomjs-launcher
+287 info addNameTag [ 'karma-phantomjs-launcher', 'latest' ]
+288 silly mapToRegistry name karma-phantomjs-launcher
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/karma-phantomjs-launcher
+292 verbose addNameTag registry:https://registry.npmjs.org/karma-phantomjs-launcher not in flight; fetching
+293 silly cache add parsed spec Result {
+293 silly cache add   raw: 'gulp-webserver',
+293 silly cache add   scope: null,
+293 silly cache add   name: 'gulp-webserver',
+293 silly cache add   rawSpec: '',
+293 silly cache add   spec: 'latest',
+293 silly cache add   type: 'tag' }
+294 silly addNamed gulp-webserver@latest
+295 verbose addNamed "latest" is being treated as a dist-tag for gulp-webserver
+296 info addNameTag [ 'gulp-webserver', 'latest' ]
+297 silly mapToRegistry name gulp-webserver
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry https://registry.npmjs.org/
+300 silly mapToRegistry uri https://registry.npmjs.org/gulp-webserver
+301 verbose addNameTag registry:https://registry.npmjs.org/gulp-webserver not in flight; fetching
+302 silly cache add parsed spec Result {
+302 silly cache add   raw: 'karma-chrome-launcher',
+302 silly cache add   scope: null,
+302 silly cache add   name: 'karma-chrome-launcher',
+302 silly cache add   rawSpec: '',
+302 silly cache add   spec: 'latest',
+302 silly cache add   type: 'tag' }
+303 silly addNamed karma-chrome-launcher@latest
+304 verbose addNamed "latest" is being treated as a dist-tag for karma-chrome-launcher
+305 info addNameTag [ 'karma-chrome-launcher', 'latest' ]
+306 silly mapToRegistry name karma-chrome-launcher
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npmjs.org/
+309 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+310 verbose addNameTag registry:https://registry.npmjs.org/karma-chrome-launcher not in flight; fetching
+311 silly cache add parsed spec Result {
+311 silly cache add   raw: 'gulp',
+311 silly cache add   scope: null,
+311 silly cache add   name: 'gulp',
+311 silly cache add   rawSpec: '',
+311 silly cache add   spec: 'latest',
+311 silly cache add   type: 'tag' }
+312 silly addNamed gulp@latest
+313 verbose addNamed "latest" is being treated as a dist-tag for gulp
+314 info addNameTag [ 'gulp', 'latest' ]
+315 silly mapToRegistry name gulp
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/gulp
+319 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
+320 silly cache add parsed spec Result {
+320 silly cache add   raw: 'dev',
+320 silly cache add   scope: null,
+320 silly cache add   name: 'dev',
+320 silly cache add   rawSpec: '',
+320 silly cache add   spec: 'latest',
+320 silly cache add   type: 'tag' }
+321 silly addNamed dev@latest
+322 verbose addNamed "latest" is being treated as a dist-tag for dev
+323 info addNameTag [ 'dev', 'latest' ]
+324 silly mapToRegistry name dev
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/dev
+328 verbose addNameTag registry:https://registry.npmjs.org/dev not in flight; fetching
+329 silly cache add parsed spec Result {
+329 silly cache add   raw: 'karma-sinon',
+329 silly cache add   scope: null,
+329 silly cache add   name: 'karma-sinon',
+329 silly cache add   rawSpec: '',
+329 silly cache add   spec: 'latest',
+329 silly cache add   type: 'tag' }
+330 silly addNamed karma-sinon@latest
+331 verbose addNamed "latest" is being treated as a dist-tag for karma-sinon
+332 info addNameTag [ 'karma-sinon', 'latest' ]
+333 silly mapToRegistry name karma-sinon
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry uri https://registry.npmjs.org/karma-sinon
+337 verbose addNameTag registry:https://registry.npmjs.org/karma-sinon not in flight; fetching
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: 'sinon',
+338 silly cache add   scope: null,
+338 silly cache add   name: 'sinon',
+338 silly cache add   rawSpec: '',
+338 silly cache add   spec: 'latest',
+338 silly cache add   type: 'tag' }
+339 silly addNamed sinon@latest
+340 verbose addNamed "latest" is being treated as a dist-tag for sinon
+341 info addNameTag [ 'sinon', 'latest' ]
+342 silly mapToRegistry name sinon
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry uri https://registry.npmjs.org/sinon
+346 verbose addNameTag registry:https://registry.npmjs.org/sinon not in flight; fetching
+347 silly cache add parsed spec Result {
+347 silly cache add   raw: 'mocha',
+347 silly cache add   scope: null,
+347 silly cache add   name: 'mocha',
+347 silly cache add   rawSpec: '',
+347 silly cache add   spec: 'latest',
+347 silly cache add   type: 'tag' }
+348 silly addNamed mocha@latest
+349 verbose addNamed "latest" is being treated as a dist-tag for mocha
+350 info addNameTag [ 'mocha', 'latest' ]
+351 silly mapToRegistry name mocha
+352 silly mapToRegistry using default registry
+353 silly mapToRegistry registry https://registry.npmjs.org/
+354 silly mapToRegistry uri https://registry.npmjs.org/mocha
+355 verbose addNameTag registry:https://registry.npmjs.org/mocha not in flight; fetching
+356 silly cache add parsed spec Result {
+356 silly cache add   raw: 'karma',
+356 silly cache add   scope: null,
+356 silly cache add   name: 'karma',
+356 silly cache add   rawSpec: '',
+356 silly cache add   spec: 'latest',
+356 silly cache add   type: 'tag' }
+357 silly addNamed karma@latest
+358 verbose addNamed "latest" is being treated as a dist-tag for karma
+359 info addNameTag [ 'karma', 'latest' ]
+360 silly mapToRegistry name karma
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry https://registry.npmjs.org/
+363 silly mapToRegistry uri https://registry.npmjs.org/karma
+364 verbose addNameTag registry:https://registry.npmjs.org/karma not in flight; fetching
+365 silly cache add parsed spec Result {
+365 silly cache add   raw: 'karma-chai',
+365 silly cache add   scope: null,
+365 silly cache add   name: 'karma-chai',
+365 silly cache add   rawSpec: '',
+365 silly cache add   spec: 'latest',
+365 silly cache add   type: 'tag' }
+366 silly addNamed karma-chai@latest
+367 verbose addNamed "latest" is being treated as a dist-tag for karma-chai
+368 info addNameTag [ 'karma-chai', 'latest' ]
+369 silly mapToRegistry name karma-chai
+370 silly mapToRegistry using default registry
+371 silly mapToRegistry registry https://registry.npmjs.org/
+372 silly mapToRegistry uri https://registry.npmjs.org/karma-chai
+373 verbose addNameTag registry:https://registry.npmjs.org/karma-chai not in flight; fetching
+374 verbose get https://registry.npmjs.org/karma-mocha not expired, no request
+375 silly addNameTag next cb for karma-mocha with tag latest
+376 silly addNamed karma-mocha@1.0.1
+377 verbose addNamed "1.0.1" is a plain semver version for karma-mocha
+378 verbose get https://registry.npmjs.org/chai not expired, no request
+379 silly addNameTag next cb for chai with tag latest
+380 silly addNamed chai@3.5.0
+381 verbose addNamed "3.5.0" is a plain semver version for chai
+382 verbose get https://registry.npmjs.org/karma-phantomjs-launcher not expired, no request
+383 silly addNameTag next cb for karma-phantomjs-launcher with tag latest
+384 silly addNamed karma-phantomjs-launcher@1.0.0
+385 verbose addNamed "1.0.0" is a plain semver version for karma-phantomjs-launcher
+386 verbose get https://registry.npmjs.org/gulp-webserver not expired, no request
+387 silly addNameTag next cb for gulp-webserver with tag latest
+388 silly addNamed gulp-webserver@0.9.1
+389 verbose addNamed "0.9.1" is a plain semver version for gulp-webserver
+390 verbose get https://registry.npmjs.org/karma-chrome-launcher not expired, no request
+391 silly addNameTag next cb for karma-chrome-launcher with tag latest
+392 silly addNamed karma-chrome-launcher@1.0.1
+393 verbose addNamed "1.0.1" is a plain semver version for karma-chrome-launcher
+394 verbose get https://registry.npmjs.org/phantomjs not expired, no request
+395 silly addNameTag next cb for phantomjs with tag latest
+396 silly addNamed phantomjs@2.1.7
+397 verbose addNamed "2.1.7" is a plain semver version for phantomjs
+398 warn deprecated phantomjs@2.1.7: Package renamed to phantomjs-prebuilt. Please update 'phantomjs' package references to 'phantomjs-prebuilt'
+399 verbose get https://registry.npmjs.org/dev not expired, no request
+400 silly addNameTag next cb for dev with tag latest
+401 silly addNamed dev@0.1.3
+402 verbose addNamed "0.1.3" is a plain semver version for dev
+403 verbose get https://registry.npmjs.org/karma-sinon not expired, no request
+404 silly addNameTag next cb for karma-sinon with tag latest
+405 silly addNamed karma-sinon@1.0.5
+406 verbose addNamed "1.0.5" is a plain semver version for karma-sinon
+407 verbose get https://registry.npmjs.org/gulp not expired, no request
+408 silly addNameTag next cb for gulp with tag latest
+409 silly addNamed gulp@3.9.1
+410 verbose addNamed "3.9.1" is a plain semver version for gulp
+411 verbose get https://registry.npmjs.org/sinon not expired, no request
+412 silly addNameTag next cb for sinon with tag latest
+413 silly addNamed sinon@1.17.4
+414 verbose addNamed "1.17.4" is a plain semver version for sinon
+415 verbose get https://registry.npmjs.org/mocha not expired, no request
+416 silly addNameTag next cb for mocha with tag latest
+417 silly addNamed mocha@2.5.3
+418 verbose addNamed "2.5.3" is a plain semver version for mocha
+419 verbose get https://registry.npmjs.org/karma-chai not expired, no request
+420 silly addNameTag next cb for karma-chai with tag latest
+421 silly addNamed karma-chai@0.1.0
+422 verbose addNamed "0.1.0" is a plain semver version for karma-chai
+423 verbose get https://registry.npmjs.org/karma not expired, no request
+424 silly addNameTag next cb for karma with tag latest
+425 silly addNamed karma@0.13.22
+426 verbose addNamed "0.13.22" is a plain semver version for karma
+427 silly mapToRegistry name dev
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry https://registry.npmjs.org/
+430 silly mapToRegistry uri https://registry.npmjs.org/dev
+431 verbose addRemoteTarball https://registry.npmjs.org/dev/-/dev-0.1.3.tgz not in flight; adding
+432 verbose addRemoteTarball [ 'https://registry.npmjs.org/dev/-/dev-0.1.3.tgz',
+432 verbose addRemoteTarball   '89fdc08705e0e7eaef92d012e26751e4d744322a' ]
+433 silly mapToRegistry name karma-sinon
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry https://registry.npmjs.org/
+436 silly mapToRegistry uri https://registry.npmjs.org/karma-sinon
+437 verbose addRemoteTarball https://registry.npmjs.org/karma-sinon/-/karma-sinon-1.0.5.tgz not in flight; adding
+438 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-sinon/-/karma-sinon-1.0.5.tgz',
+438 verbose addRemoteTarball   '4e3443f2830fdecff624d3747163f1217daa2a9a' ]
+439 silly mapToRegistry name sinon
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/sinon
+443 verbose addRemoteTarball https://registry.npmjs.org/sinon/-/sinon-1.17.4.tgz not in flight; adding
+444 verbose addRemoteTarball [ 'https://registry.npmjs.org/sinon/-/sinon-1.17.4.tgz',
+444 verbose addRemoteTarball   '4e4ff4d84b20adee13138f36acb132ca1cd72c83' ]
+445 silly mapToRegistry name mocha
+446 silly mapToRegistry using default registry
+447 silly mapToRegistry registry https://registry.npmjs.org/
+448 silly mapToRegistry uri https://registry.npmjs.org/mocha
+449 verbose addRemoteTarball https://registry.npmjs.org/mocha/-/mocha-2.5.3.tgz not in flight; adding
+450 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-2.5.3.tgz',
+450 verbose addRemoteTarball   '161be5bdeb496771eb9b35745050b622b5aefc58' ]
+451 silly cache afterAdd chai@3.5.0
+452 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\chai\3.5.0\package\package.json not in flight; writing
+453 silly cache afterAdd karma-mocha@1.0.1
+454 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-mocha\1.0.1\package\package.json not in flight; writing
+455 silly cache afterAdd karma-chrome-launcher@1.0.1
+456 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-chrome-launcher\1.0.1\package\package.json not in flight; writing
+457 silly cache afterAdd gulp-webserver@0.9.1
+458 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\gulp-webserver\0.9.1\package\package.json not in flight; writing
+459 silly cache afterAdd karma-phantomjs-launcher@1.0.0
+460 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-phantomjs-launcher\1.0.0\package\package.json not in flight; writing
+461 silly cache afterAdd karma-chai@0.1.0
+462 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-chai\0.1.0\package\package.json not in flight; writing
+463 info retry fetch attempt 1 at 10:36:38 AM
+464 info attempt registry request try #1 at 10:36:38 AM
+465 http fetch GET https://registry.npmjs.org/dev/-/dev-0.1.3.tgz
+466 silly cache afterAdd gulp@3.9.1
+467 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+468 silly cache afterAdd phantomjs@2.1.7
+469 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\phantomjs\2.1.7\package\package.json not in flight; writing
+470 info retry fetch attempt 1 at 10:36:38 AM
+471 info attempt registry request try #1 at 10:36:38 AM
+472 http fetch GET https://registry.npmjs.org/karma-sinon/-/karma-sinon-1.0.5.tgz
+473 info retry fetch attempt 1 at 10:36:38 AM
+474 info attempt registry request try #1 at 10:36:38 AM
+475 http fetch GET https://registry.npmjs.org/sinon/-/sinon-1.17.4.tgz
+476 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\chai\3.5.0\package\package.json written
+477 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-mocha\1.0.1\package\package.json written
+478 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-chrome-launcher\1.0.1\package\package.json written
+479 info retry fetch attempt 1 at 10:36:38 AM
+480 info attempt registry request try #1 at 10:36:38 AM
+481 http fetch GET https://registry.npmjs.org/mocha/-/mocha-2.5.3.tgz
+482 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\gulp-webserver\0.9.1\package\package.json written
+483 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-chai\0.1.0\package\package.json written
+484 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-phantomjs-launcher\1.0.0\package\package.json written
+485 silly cache afterAdd karma@0.13.22
+486 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma\0.13.22\package\package.json not in flight; writing
+487 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+488 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\phantomjs\2.1.7\package\package.json written
+489 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma\0.13.22\package\package.json written
+490 http fetch 200 https://registry.npmjs.org/dev/-/dev-0.1.3.tgz
+491 silly fetchAndShaCheck shasum 89fdc08705e0e7eaef92d012e26751e4d744322a
+492 verbose addTmpTarball C:\Users\admin\AppData\Local\Temp\npm-1412-cc3a6fed\registry.npmjs.org\dev\-\dev-0.1.3.tgz not in flight; adding
+493 verbose addTmpTarball already have metadata; skipping unpack for dev@0.1.3
+494 silly cache afterAdd dev@0.1.3
+495 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\dev\0.1.3\package\package.json not in flight; writing
+496 http fetch 200 https://registry.npmjs.org/karma-sinon/-/karma-sinon-1.0.5.tgz
+497 http fetch 200 https://registry.npmjs.org/sinon/-/sinon-1.17.4.tgz
+498 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\dev\0.1.3\package\package.json written
+499 silly fetchAndShaCheck shasum 4e3443f2830fdecff624d3747163f1217daa2a9a
+500 verbose addTmpTarball C:\Users\admin\AppData\Local\Temp\npm-1412-cc3a6fed\registry.npmjs.org\karma-sinon\-\karma-sinon-1.0.5.tgz not in flight; adding
+501 verbose addTmpTarball already have metadata; skipping unpack for karma-sinon@1.0.5
+502 silly cache afterAdd karma-sinon@1.0.5
+503 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-sinon\1.0.5\package\package.json not in flight; writing
+504 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\karma-sinon\1.0.5\package\package.json written
+505 http fetch 200 https://registry.npmjs.org/mocha/-/mocha-2.5.3.tgz
+506 silly fetchAndShaCheck shasum 161be5bdeb496771eb9b35745050b622b5aefc58
+507 verbose addTmpTarball C:\Users\admin\AppData\Local\Temp\npm-1412-cc3a6fed\registry.npmjs.org\mocha\-\mocha-2.5.3.tgz not in flight; adding
+508 verbose addTmpTarball already have metadata; skipping unpack for mocha@2.5.3
+509 silly cache afterAdd mocha@2.5.3
+510 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\mocha\2.5.3\package\package.json not in flight; writing
+511 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\mocha\2.5.3\package\package.json written
+512 silly fetchAndShaCheck shasum 4e4ff4d84b20adee13138f36acb132ca1cd72c83
+513 verbose addTmpTarball C:\Users\admin\AppData\Local\Temp\npm-1412-cc3a6fed\registry.npmjs.org\sinon\-\sinon-1.17.4.tgz not in flight; adding
+514 verbose addTmpTarball already have metadata; skipping unpack for sinon@1.17.4
+515 silly cache afterAdd sinon@1.17.4
+516 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\sinon\1.17.4\package\package.json not in flight; writing
+517 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\sinon\1.17.4\package\package.json written
+518 silly fetchNamedPackageData assertion-error
+519 silly mapToRegistry name assertion-error
+520 silly mapToRegistry using default registry
+521 silly mapToRegistry registry https://registry.npmjs.org/
+522 silly mapToRegistry uri https://registry.npmjs.org/assertion-error
+523 silly fetchNamedPackageData deep-eql
+524 silly mapToRegistry name deep-eql
+525 silly mapToRegistry using default registry
+526 silly mapToRegistry registry https://registry.npmjs.org/
+527 silly mapToRegistry uri https://registry.npmjs.org/deep-eql
+528 silly fetchNamedPackageData type-detect
+529 silly mapToRegistry name type-detect
+530 silly mapToRegistry using default registry
+531 silly mapToRegistry registry https://registry.npmjs.org/
+532 silly mapToRegistry uri https://registry.npmjs.org/type-detect
+533 verbose request uri https://registry.npmjs.org/deep-eql
+534 verbose request no auth needed
+535 info attempt registry request try #1 at 10:36:41 AM
+536 verbose etag "71NTPET7771AKWW3YLIGG55M1"
+537 http request GET https://registry.npmjs.org/deep-eql
+538 verbose request uri https://registry.npmjs.org/assertion-error
+539 verbose request no auth needed
+540 info attempt registry request try #1 at 10:36:41 AM
+541 verbose etag "3CD1PI3O1FZG8R35DHZFCBSUN"
+542 http request GET https://registry.npmjs.org/assertion-error
+543 verbose request uri https://registry.npmjs.org/type-detect
+544 verbose request no auth needed
+545 info attempt registry request try #1 at 10:36:41 AM
+546 verbose etag "1NV7GYQNW8YQWH970J0TIL0T7"
+547 http request GET https://registry.npmjs.org/type-detect
+548 http 304 https://registry.npmjs.org/deep-eql
+549 verbose headers { date: 'Tue, 21 Jun 2016 05:06:43 GMT',
+549 verbose headers   via: '1.1 varnish',
+549 verbose headers   'cache-control': 'max-age=300',
+549 verbose headers   etag: '"71NTPET7771AKWW3YLIGG55M1"',
+549 verbose headers   age: '34',
+549 verbose headers   connection: 'keep-alive',
+549 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+549 verbose headers   'x-cache': 'HIT',
+549 verbose headers   'x-cache-hits': '1',
+549 verbose headers   'x-timer': 'S1466485603.738044,VS0,VE0',
+549 verbose headers   vary: 'Accept-Encoding' }
+550 silly get cb [ 304,
+550 silly get   { date: 'Tue, 21 Jun 2016 05:06:43 GMT',
+550 silly get     via: '1.1 varnish',
+550 silly get     'cache-control': 'max-age=300',
+550 silly get     etag: '"71NTPET7771AKWW3YLIGG55M1"',
+550 silly get     age: '34',
+550 silly get     connection: 'keep-alive',
+550 silly get     'x-served-by': 'cache-sin6922-SIN',
+550 silly get     'x-cache': 'HIT',
+550 silly get     'x-cache-hits': '1',
+550 silly get     'x-timer': 'S1466485603.738044,VS0,VE0',
+550 silly get     vary: 'Accept-Encoding' } ]
+551 verbose etag https://registry.npmjs.org/deep-eql from cache
+552 verbose get saving deep-eql to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\deep-eql\.cache.json
+553 silly resolveWithNewModule deep-eql@0.1.3 checking installable status
+554 silly cache add args [ 'deep-eql@^0.1.3', null ]
+555 verbose cache add spec deep-eql@^0.1.3
+556 silly cache add parsed spec Result {
+556 silly cache add   raw: 'deep-eql@^0.1.3',
+556 silly cache add   scope: null,
+556 silly cache add   name: 'deep-eql',
+556 silly cache add   rawSpec: '^0.1.3',
+556 silly cache add   spec: '>=0.1.3 <0.2.0',
+556 silly cache add   type: 'range' }
+557 silly addNamed deep-eql@>=0.1.3 <0.2.0
+558 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for deep-eql
+559 silly addNameRange { name: 'deep-eql', range: '>=0.1.3 <0.2.0', hasData: false }
+560 silly mapToRegistry name deep-eql
+561 silly mapToRegistry using default registry
+562 silly mapToRegistry registry https://registry.npmjs.org/
+563 silly mapToRegistry uri https://registry.npmjs.org/deep-eql
+564 verbose addNameRange registry:https://registry.npmjs.org/deep-eql not in flight; fetching
+565 verbose get https://registry.npmjs.org/deep-eql not expired, no request
+566 silly addNameRange number 2 { name: 'deep-eql', range: '>=0.1.3 <0.2.0', hasData: true }
+567 silly addNameRange versions [ 'deep-eql', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+568 silly addNamed deep-eql@0.1.3
+569 verbose addNamed "0.1.3" is a plain semver version for deep-eql
+570 http 200 https://registry.npmjs.org/assertion-error
+571 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+571 verbose headers   etag: '"7E2IFRE50Q304WU066KS7K1A3"',
+571 verbose headers   'content-type': 'application/json',
+571 verbose headers   'content-encoding': 'gzip',
+571 verbose headers   'cache-control': 'max-age=300',
+571 verbose headers   'content-length': '2125',
+571 verbose headers   'accept-ranges': 'bytes',
+571 verbose headers   date: 'Tue, 21 Jun 2016 05:06:43 GMT',
+571 verbose headers   via: '1.1 varnish',
+571 verbose headers   age: '34',
+571 verbose headers   connection: 'keep-alive',
+571 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+571 verbose headers   'x-cache': 'HIT',
+571 verbose headers   'x-cache-hits': '1',
+571 verbose headers   'x-timer': 'S1466485603.758087,VS0,VE0',
+571 verbose headers   vary: 'Accept-Encoding' }
+572 silly get cb [ 200,
+572 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+572 silly get     etag: '"7E2IFRE50Q304WU066KS7K1A3"',
+572 silly get     'content-type': 'application/json',
+572 silly get     'content-encoding': 'gzip',
+572 silly get     'cache-control': 'max-age=300',
+572 silly get     'content-length': '2125',
+572 silly get     'accept-ranges': 'bytes',
+572 silly get     date: 'Tue, 21 Jun 2016 05:06:43 GMT',
+572 silly get     via: '1.1 varnish',
+572 silly get     age: '34',
+572 silly get     connection: 'keep-alive',
+572 silly get     'x-served-by': 'cache-sin6927-SIN',
+572 silly get     'x-cache': 'HIT',
+572 silly get     'x-cache-hits': '1',
+572 silly get     'x-timer': 'S1466485603.758087,VS0,VE0',
+572 silly get     vary: 'Accept-Encoding' } ]
+573 verbose get saving assertion-error to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\assertion-error\.cache.json
+574 silly cache afterAdd deep-eql@0.1.3
+575 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\deep-eql\0.1.3\package\package.json not in flight; writing
+576 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\deep-eql\0.1.3\package\package.json written
+577 silly resolveWithNewModule assertion-error@1.0.2 checking installable status
+578 silly cache add args [ 'assertion-error@^1.0.1', null ]
+579 verbose cache add spec assertion-error@^1.0.1
+580 silly cache add parsed spec Result {
+580 silly cache add   raw: 'assertion-error@^1.0.1',
+580 silly cache add   scope: null,
+580 silly cache add   name: 'assertion-error',
+580 silly cache add   rawSpec: '^1.0.1',
+580 silly cache add   spec: '>=1.0.1 <2.0.0',
+580 silly cache add   type: 'range' }
+581 silly addNamed assertion-error@>=1.0.1 <2.0.0
+582 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for assertion-error
+583 silly addNameRange { name: 'assertion-error',
+583 silly addNameRange   range: '>=1.0.1 <2.0.0',
+583 silly addNameRange   hasData: false }
+584 silly mapToRegistry name assertion-error
+585 silly mapToRegistry using default registry
+586 silly mapToRegistry registry https://registry.npmjs.org/
+587 silly mapToRegistry uri https://registry.npmjs.org/assertion-error
+588 verbose addNameRange registry:https://registry.npmjs.org/assertion-error not in flight; fetching
+589 verbose get https://registry.npmjs.org/assertion-error not expired, no request
+590 silly addNameRange number 2 { name: 'assertion-error',
+590 silly addNameRange   range: '>=1.0.1 <2.0.0',
+590 silly addNameRange   hasData: true }
+591 silly addNameRange versions [ 'assertion-error', [ '0.1.0', '1.0.0', '1.0.1', '1.0.2' ] ]
+592 silly addNamed assertion-error@1.0.2
+593 verbose addNamed "1.0.2" is a plain semver version for assertion-error
+594 silly mapToRegistry name assertion-error
+595 silly mapToRegistry using default registry
+596 silly mapToRegistry registry https://registry.npmjs.org/
+597 silly mapToRegistry uri https://registry.npmjs.org/assertion-error
+598 verbose addRemoteTarball https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz not in flight; adding
+599 verbose addRemoteTarball [ 'https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz',
+599 verbose addRemoteTarball   '13ca515d86206da0bac66e834dd397d87581094c' ]
+600 info retry fetch attempt 1 at 10:36:41 AM
+601 info attempt registry request try #1 at 10:36:41 AM
+602 http fetch GET https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz
+603 http 200 https://registry.npmjs.org/type-detect
+604 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+604 verbose headers   etag: '"3GYGYA3TZ3BB07NJDMTY9Q7O2"',
+604 verbose headers   'content-type': 'application/json',
+604 verbose headers   'content-encoding': 'gzip',
+604 verbose headers   'cache-control': 'max-age=300',
+604 verbose headers   'content-length': '4187',
+604 verbose headers   'accept-ranges': 'bytes',
+604 verbose headers   date: 'Tue, 21 Jun 2016 05:06:43 GMT',
+604 verbose headers   via: '1.1 varnish',
+604 verbose headers   age: '34',
+604 verbose headers   connection: 'keep-alive',
+604 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+604 verbose headers   'x-cache': 'HIT',
+604 verbose headers   'x-cache-hits': '1',
+604 verbose headers   'x-timer': 'S1466485603.779579,VS0,VE0',
+604 verbose headers   vary: 'Accept-Encoding' }
+605 silly get cb [ 200,
+605 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+605 silly get     etag: '"3GYGYA3TZ3BB07NJDMTY9Q7O2"',
+605 silly get     'content-type': 'application/json',
+605 silly get     'content-encoding': 'gzip',
+605 silly get     'cache-control': 'max-age=300',
+605 silly get     'content-length': '4187',
+605 silly get     'accept-ranges': 'bytes',
+605 silly get     date: 'Tue, 21 Jun 2016 05:06:43 GMT',
+605 silly get     via: '1.1 varnish',
+605 silly get     age: '34',
+605 silly get     connection: 'keep-alive',
+605 silly get     'x-served-by': 'cache-sin6922-SIN',
+605 silly get     'x-cache': 'HIT',
+605 silly get     'x-cache-hits': '1',
+605 silly get     'x-timer': 'S1466485603.779579,VS0,VE0',
+605 silly get     vary: 'Accept-Encoding' } ]
+606 verbose get saving type-detect to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\type-detect\.cache.json
+607 silly resolveWithNewModule type-detect@1.0.0 checking installable status
+608 silly cache add args [ 'type-detect@^1.0.0', null ]
+609 verbose cache add spec type-detect@^1.0.0
+610 silly cache add parsed spec Result {
+610 silly cache add   raw: 'type-detect@^1.0.0',
+610 silly cache add   scope: null,
+610 silly cache add   name: 'type-detect',
+610 silly cache add   rawSpec: '^1.0.0',
+610 silly cache add   spec: '>=1.0.0 <2.0.0',
+610 silly cache add   type: 'range' }
+611 silly addNamed type-detect@>=1.0.0 <2.0.0
+612 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for type-detect
+613 silly addNameRange { name: 'type-detect', range: '>=1.0.0 <2.0.0', hasData: false }
+614 silly mapToRegistry name type-detect
+615 silly mapToRegistry using default registry
+616 silly mapToRegistry registry https://registry.npmjs.org/
+617 silly mapToRegistry uri https://registry.npmjs.org/type-detect
+618 verbose addNameRange registry:https://registry.npmjs.org/type-detect not in flight; fetching
+619 verbose get https://registry.npmjs.org/type-detect not expired, no request
+620 silly addNameRange number 2 { name: 'type-detect', range: '>=1.0.0 <2.0.0', hasData: true }
+621 silly addNameRange versions [ 'type-detect',
+621 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '1.0.0', '2.0.0', '2.0.1' ] ]
+622 silly addNamed type-detect@1.0.0
+623 verbose addNamed "1.0.0" is a plain semver version for type-detect
+624 silly cache afterAdd type-detect@1.0.0
+625 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\type-detect\1.0.0\package\package.json not in flight; writing
+626 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\type-detect\1.0.0\package\package.json written
+627 http fetch 200 https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz
+628 silly fetchAndShaCheck shasum 13ca515d86206da0bac66e834dd397d87581094c
+629 verbose addTmpTarball C:\Users\admin\AppData\Local\Temp\npm-1412-cc3a6fed\registry.npmjs.org\assertion-error\-\assertion-error-1.0.2.tgz not in flight; adding
+630 verbose addTmpTarball already have metadata; skipping unpack for assertion-error@1.0.2
+631 silly cache afterAdd assertion-error@1.0.2
+632 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\assertion-error\1.0.2\package\package.json not in flight; writing
+633 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\assertion-error\1.0.2\package\package.json written
+634 silly fetchNamedPackageData type-detect
+635 silly mapToRegistry name type-detect
+636 silly mapToRegistry using default registry
+637 silly mapToRegistry registry https://registry.npmjs.org/
+638 silly mapToRegistry uri https://registry.npmjs.org/type-detect
+639 silly resolveWithNewModule type-detect@0.1.1 checking installable status
+640 silly cache add args [ 'type-detect@0.1.1', null ]
+641 verbose cache add spec type-detect@0.1.1
+642 silly cache add parsed spec Result {
+642 silly cache add   raw: 'type-detect@0.1.1',
+642 silly cache add   scope: null,
+642 silly cache add   name: 'type-detect',
+642 silly cache add   rawSpec: '0.1.1',
+642 silly cache add   spec: '0.1.1',
+642 silly cache add   type: 'version' }
+643 silly addNamed type-detect@0.1.1
+644 verbose addNamed "0.1.1" is a plain semver version for type-detect
+645 silly mapToRegistry name type-detect
+646 silly mapToRegistry using default registry
+647 silly mapToRegistry registry https://registry.npmjs.org/
+648 silly mapToRegistry uri https://registry.npmjs.org/type-detect
+649 verbose addNameVersion registry:https://registry.npmjs.org/type-detect not in flight; fetching
+650 verbose get https://registry.npmjs.org/type-detect not expired, no request
+651 silly cache afterAdd type-detect@0.1.1
+652 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\type-detect\0.1.1\package\package.json not in flight; writing
+653 verbose afterAdd C:\Users\admin\AppData\Roaming\npm-cache\type-detect\0.1.1\package\package.json written
+654 silly fetchNamedPackageData inotify
+655 silly mapToRegistry name inotify
+656 silly mapToRegistry using default registry
+657 silly mapToRegistry registry https://registry.npmjs.org/
+658 silly mapToRegistry uri https://registry.npmjs.org/inotify
+659 verbose request uri https://registry.npmjs.org/inotify
+660 verbose request no auth needed
+661 info attempt registry request try #1 at 10:36:42 AM
+662 http request GET https://registry.npmjs.org/inotify
+663 http 200 https://registry.npmjs.org/inotify
+664 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+664 verbose headers   etag: '"DJDJZLGYF0JXWEDSAJB20ON5A"',
+664 verbose headers   'content-type': 'application/json',
+664 verbose headers   'content-encoding': 'gzip',
+664 verbose headers   'cache-control': 'max-age=300',
+664 verbose headers   'content-length': '6577',
+664 verbose headers   'accept-ranges': 'bytes',
+664 verbose headers   date: 'Tue, 21 Jun 2016 05:06:45 GMT',
+664 verbose headers   via: '1.1 varnish',
+664 verbose headers   age: '0',
+664 verbose headers   connection: 'keep-alive',
+664 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+664 verbose headers   'x-cache': 'MISS',
+664 verbose headers   'x-cache-hits': '0',
+664 verbose headers   'x-timer': 'S1466485604.350457,VS0,VE882',
+664 verbose headers   vary: 'Accept-Encoding' }
+665 silly get cb [ 200,
+665 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+665 silly get     etag: '"DJDJZLGYF0JXWEDSAJB20ON5A"',
+665 silly get     'content-type': 'application/json',
+665 silly get     'content-encoding': 'gzip',
+665 silly get     'cache-control': 'max-age=300',
+665 silly get     'content-length': '6577',
+665 silly get     'accept-ranges': 'bytes',
+665 silly get     date: 'Tue, 21 Jun 2016 05:06:45 GMT',
+665 silly get     via: '1.1 varnish',
+665 silly get     age: '0',
+665 silly get     connection: 'keep-alive',
+665 silly get     'x-served-by': 'cache-sin6922-SIN',
+665 silly get     'x-cache': 'MISS',
+665 silly get     'x-cache-hits': '0',
+665 silly get     'x-timer': 'S1466485604.350457,VS0,VE882',
+665 silly get     vary: 'Accept-Encoding' } ]
+666 verbose get saving inotify to C:\Users\admin\AppData\Roaming\npm-cache\registry.npmjs.org\inotify\.cache.json
+667 silly resolveWithNewModule inotify@1.4.1 checking installable status
+668 silly rollbackFailedOptional Starting
+669 silly rollbackFailedOptional Finishing
+670 silly runTopLevelLifecycles Starting
+671 silly runTopLevelLifecycles Finishing
+672 silly install printInstalled
+673 verbose stack Error: Unsupported
+673 verbose stack     at checkPlatform (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\npm-install-checks\index.js:46:14)
+673 verbose stack     at Array.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+673 verbose stack     at LOOP (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+673 verbose stack     at C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+673 verbose stack     at checkEngine (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\npm-install-checks\index.js:25:10)
+673 verbose stack     at Array.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+673 verbose stack     at LOOP (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+673 verbose stack     at chain (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+673 verbose stack     at module.exports.isInstallable (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:26:3)
+673 verbose stack     at resolveWithNewModule (C:\Users\admin\AppData\Roaming\npm\node_modules\npm\lib\install\deps.js:463:12)
+674 verbose pkgid inotify@1.4.1
+675 verbose cwd C:\Users\admin\Documents\GitHub\angular_modal
+676 error Windows_NT 6.1.7600
+677 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "dev" "chai" "gulp" "gulp-webserver" "karma" "karma-chai" "karma-chrome-launcher" "karma-mocha" "karma-phantomjs-launcher" "karma-sinon" "mocha" "phantomjs" "sinon"
+678 error node v4.2.1
+679 error npm  v3.5.3
+680 error code EBADPLATFORM
+681 error notsup Not compatible with your operating system or architecture: inotify@1.4.1
+682 error notsup Valid OS:    linux
+682 error notsup Valid Arch:  any
+682 error notsup Actual OS:   win32
+682 error notsup Actual Arch: ia32
+683 verbose exit [ 1, true ]
